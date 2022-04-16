@@ -24,6 +24,6 @@ h2 {
 	margin:auto;  
 	font-size: 37px;
 	border-bottom: 7px solid red;
-	box-shadow: 0 0 10px;blue;
+	box-shadow: 0 0 10px,blue;
 }
 
