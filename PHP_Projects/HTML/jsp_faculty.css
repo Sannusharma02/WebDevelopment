@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+div a
+{
+	font-size: 25px;
+	color: rgb(139,76,141);
+	text-decoration: none;
+	padding: 20px;
+}
+body
+{
+	font-family: "Comic Sans MS",Sans-Serif;
+	background: linear-gradient(45deg,lightgreen,pink,lightgreen);
+	text-align: center;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+	background: linear-gradient(45deg,pink,yellow,pink);
+	padding: 18px;
+	color: red;
+	border-radius: 100px 100px 0px 0px;
+	width:600px; 
+	margin:auto;  
+	font-size: 37px;
+	border-bottom: 7px solid red;
+	box-shadow: 0 0 10px;blue;
+}
+

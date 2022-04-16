@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GB18030">
+<title>Css Selectors</title>
+<style type="text/css">
+	input[type="text"]:focus
+	{
+	background-color: gray;
+	color: white;
+	}
+	input[type="password"] :focus
+	{
+	background-color: yellow;
+	color: red;
+	}
+	input[type="submit"] :hover
+	{
+	background-color: green;
+	color: white;
+	}
+</style>
+</head>
+<body>
+	<form>
+		<label>Username</label>
+		<input type="text" name="u1">
+		<label>Password</label>
+		<input type="password" name="p1">
+		<br>
+		<br>
+		<input type="submit" name="s1" value="SUBMIT">
+	</form>
+</body>
+</html>
