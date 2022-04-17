@@ -14,6 +14,9 @@
 		form{
 			padding: 40px;
 			}
+		body{
+			margin-bottom: 500px;
+			}
 	</style>
 </head>
 <body>
@@ -27,8 +30,9 @@
 			<input type="submit" name="submit">
 		</form>
 	</div>
+	<!-- forrm in table format with post method -->
 	<div>
-		<form action="">
+		<form method="post" action="http://www.amazon.com">
 		<table>
 		<tr>
 			<td><label>Username</label></td>
@@ -44,5 +48,236 @@
 		</table>
 		</form>
 	</div>
+	<!-- Select and option tag -->
+	<div>
+		<form action="">
+			<label>Select A City</label>
+			<select>
+				<option>Others</option>
+				<option>Bangalore</option>
+				<option>Mumbai</option>
+				<option>Chennai</option>
+				<option>Pune</option>
+				<option>Chandigarh</option>
+			</select>
+		</form>
+	</div>
+	<!-- textarea tag -->
+	<div>
+		<form action="">
+			<label>Enter your message</label>
+				<textarea rows="5" cols="20"></textarea>
+		</form>
+	</div>
+	<!-- datalist(html5 tag) this is also used to create a dropdown list -->
+	<div>
+		<form>
+			<label>Select A City</label>
+			<input list="City" name="city">
+			<datalist id="City">
+				<option>Others</option>
+				<option>Bangalore</option>
+				<option>Mumbai</option>
+				<option>Chennai</option>
+				<option>Pune</option>
+				<option>Chandigarh</option>
+			</datalist>
+		</form>
+	</div>
+	
+<h1>Form Input Types</h1>
+<!-- type text -->
+	<div>
+		<form action="">
+			<label>Username</label>
+			<input type="text" name="t1">
+		</form>
+	</div>	
+<!-- type password -->
+	<div>
+		<form action="">
+			<label>Password</label>
+			<input type="password" name="p1">
+		</form>
+	</div>	
+<!-- type text -->
+	<div>
+		<form action="">
+			<label>Username</label>
+			<input type="text" name="t1">
+			<input type="submit" name="s1" value="Sub">
+		</form>
+	</div>	
+<!-- type reset -->
+	<div>
+		<form action="">
+			<label>Username</label>
+			<input type="text" name="t1">
+			<input type="reset" name="r1" value="Clear Feild">
+		</form>
+	</div>	
+	
+<!-- type radio -->
+	<div>
+		<form action="">
+			<label>Is java is easy?</label>
+			<input type="radio" name="r1"> yes
+			<input type="radio" name="r1">no
+		</form>
+	</div>		
+<!-- type checkbox -->
+	<div>
+		<form action="">
+			<label>Select Your hobbies</label>
+			<input type="checkbox" name="t1">Eating
+			<input type="checkbox" name="t1">Coding
+			<input type="checkbox" name="t1">Sleeping
+		</form>
+	</div>		
+<!-- Color -->
+	<div>
+		<form action="">
+			<label>Select Color</label>
+			<input type="color" name="c1">
+		</form>
+	</div>		
+<!-- type checkbox -->
+	<div>
+		<form action="">
+			<label>Select Your hobbies</label>
+			<input type="checkbox" name="t1">Eating
+			<input type="checkbox" name="t1">Coding
+			<input type="checkbox" name="t1">Sleeping
+		</form>
+	</div>		
+<!-- type date -->
+	<div>
+		<form action="">
+			<label>Select date</label>
+			<input type="date" name="d1">
+		</form>
+	</div>	
+<!-- Date and time -->
+	<div>
+		<form action="">
+			<label>Select Date & Time</label>
+			<input type="datetime-local" name="dt1">
+		</form>
+	</div>		
+<!-- time -->
+	<div>
+		<form action="">
+			<label>Select Time</label>
+			<input type="time" name="t1">
+		</form>
+	</div>	
+<!-- month -->
+	<div>
+		<form action="">
+			<label>Select Month</label>
+			<input type="month" name="c1">
+		</form>
+	</div>
+<!-- Weekly -->
+	<div>
+		<form action="">
+			<label>Select Week</label>
+			<input type="week" name="c1">
+		</form>
+	</div>
+<!-- email -->
+	<div>
+		<form action="">
+			<label>Enter Email</label>
+			<input type="email" name="c1">
+			<input type="submit" name ="s0">
+		</form>
+	</div>	
+<!-- Search -->
+	<div>
+		<form action="">
+			<label>Search box</label>
+			<input type="search" name="c1">
+			<input type="submit" name ="s0">
+		</form>
+	</div>
+<!-- number -->
+	<div>
+		<form action="">
+			<label>Select your age</label>
+			<input type="number" name="c1" min="0" max="18">
+			<input type="submit" name ="s0">
+		</form>
+	</div>	
+<!-- url -->
+	<div>
+		<form action="">
+			<label>Enter your website</label>
+			<input type="url" >
+			<input type="submit" name ="s0">
+		</form>
+	</div>		
+<h1>Html form spl attributes</h1>
+ <!-- how to display default values for textboxes -->
+	<div>
+		<form action="">
+			<label>Username</label>
+			<input type="text" name="b1" value="kishore" readonly="readonly">
+		</form>
+	</div>
+	<!-- disabled -->
+	<div>
+		<form action="">
+			<label>Username</label>
+			<input type="text" name="b1" value="kishore" disabled="disabled">
+		</form>
+	</div>
+	<!-- required -->
+	<div>
+		<form action="">
+			<label>Username*</label>
+			<input type="text" name="b1" value="kishore" required="required">
+			<input type="submit" name="b2">
+		</form>
+	</div>
+<!-- novalidate -->
+	<div>
+		<form novalidate="novalidate">
+			<label>Username*</label>
+			<input type="text" name="b1" value="Username" required="required">
+			<input type="submit" name="b2">
+		</form>
+	</div>
+<!-- PlaceHolder this in alt for label tag -->
+	<div>
+		<form>
+			<label>Username*</label>
+			<input type="text" name="b1" placeholder="EnterUsername" >
+			<input type="submit" name="b2">
+		</form>
+	</div>
+<!-- Autofocus -->
+	<div>
+		<form>
+			<label>Username*</label>
+			<input type="text" name="b1" autofocus="autofocus">
+			<input type="submit" name="b2">
+		</form>
+	</div>
+<!-- PlaceHolder this is alternate for label tag -->
+	<div>
+		<form>
+			<input type="text" name="b1" placeholder="EnterUsername">
+			<input type="submit" name="b2">
+		</form>
+	</div>	
+<!-- Pattern -->
+	<div>
+		<form>
+			<label>Twitter Username*</label>
+			<input type="text" name="b1" pattern="^[A-Za-z0-9_]{1,32}$">
+			<input type="submit" name="b2">
+		</form>
+	</div>						
 </body>
 </html>
