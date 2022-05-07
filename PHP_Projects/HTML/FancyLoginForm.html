@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Fancy Login form</title>
+<style type="text/css">
+	body {
+		font-family: "Arial",sans-serif;
+	}
+	.login{
+		background: linear-gradient(135deg,darkred,darkslategrey);
+		color: white;
+		width: 300px;
+		text-align: center;
+		box-shadow: 0 0 10px,black;
+		border-radius: 7px;
+		margin: 90px auto;
+	}
+	.login h2{
+		padding-top: 20px;
+	}
+	.form-group input[type="text"],
+	.form-group input[type="email"],
+	.form-group input[type="password"],
+	select {
+		width: 230px;
+		height: 30px;
+		margin: 15px 0px;
+		outline: none;
+		border: none;
+		background: transparent;
+		color: white;
+		font-size: 18px;
+		border-bottom: 3px solid lightsalmon;
+	}
+	::placeholder{
+		color: white;
+	}
+	select option{
+		color: black;
+	}
+	.form-group input[type="submit"]{
+		width: 230px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		padding: 10px; 
+		background: linear-gradient(45deg,darkslategrey,coral);
+		color: white;
+		font-size: 15px;
+		border: none;
+		box-shadow: 10px;
+		border-radius: 
+	}
+	.icon .far{
+		font-size: 90px;
+		border: 10px solid darkslategrey;
+		border-radius: 50%;
+		box-shadow: black;
+		margin-top: -65px;
+		background-color: darkred;
+	}
+</style>
+<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+</head>
+<body>
+<div class="login">
+	<div class="icon">
+		<span class="far fa-user-circle"></span>
+	</div>
+	<h2>Login Here</h2>
+	<div class="form-group">
+		<input type="text" name="userName" placeholder="User Name">
+	</div>
+	<div class="form-group">
+		<input type="email" name="email" placeholder="Email">
+	</div>
+	<div class="form-group">
+		<input type="password" name="password" placeholder="Password">
+	</div>
+	<div class="form-group">
+		<input type="text" name="mobileNumber" placeholder="Mobile Number">
+	</div>
+	<div class="form-group">
+		<select>
+			<option>Select Designation</option>
+			<option>Software Engineer</option>
+			<option>Sr.Software Engineer</option>
+			<option>Project Manager</option>
+			<option>Team Leader</option>
+		</select>	
+	</div>
+	<div class="form-group">
+		<input type="Submit" name="submit" value="SUBMIT">
+	</div>
+</div>
+</body>
+</html>
