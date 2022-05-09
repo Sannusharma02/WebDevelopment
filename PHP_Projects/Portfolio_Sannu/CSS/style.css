@@ -1,8 +1,28 @@
-.img-fluid{
-	margin-top: 5px;
-	}
+/* Table of content 
+--------------------
+1. General
+2. Nav icon
+3. Banner
+4. About
+5. Services
+6. Portfolio
+7. Contact
+8. Footer
+*/
 
-.img-fluid img{
-    height : 30%;
-    width : 30%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #FD4766;
+}
+
+.img-fluid{
+    height : 100px;
+    width : 100px;
     } 
