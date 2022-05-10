@@ -12,7 +12,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,9 +20,15 @@
 
 :root{
     --primary-color: #FD4766;
+    --secondary-color: #091020;
+    --bg-dark-blue: #091020;
+    --bg-white: #fff;
+    --gray-color: #c6c9d8bf;
+    --gradient-color: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19,var(--primary-colo) 79.69%);
+    
 }
 
 .img-fluid{
     height : 100px;
     width : 100px;
-    } 
+    }
