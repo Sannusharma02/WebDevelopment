@@ -31,4 +31,11 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>phpProjects</name>
+			<type>2</type>
+			<location>C:/xampp/htdocs/phpProjects</location>
+		</link>
+	</linkedResources>
 </projectDescription>
